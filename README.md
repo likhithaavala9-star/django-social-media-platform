@@ -4,7 +4,7 @@ A Django-based social media platform implementing core social networking feature
 
 ---
 
-## 🚀 Features
+## Features
 
 ### 👤 User & Authentication
 - User registration and login
@@ -67,15 +67,24 @@ It is intended for learning and demonstration purposes.
 
 django-social-media-platform/
 │
+
 ├── accounts/ # User authentication & profiles
+
 ├── posts/ # Posts, comments, likes
+
 ├── templates/ # HTML templates
+
 ├── static/ # CSS and static files
+
 ├── media/ # Uploaded media files
+
 ├── social_media/ # Main Django project settings
+
 │
 ├── db.sqlite3
+
 ├── manage.py
+
 └── requirements.txt
 
 yaml
@@ -106,6 +115,7 @@ pip install -r requirements.txt
 
 ### 5️⃣ Apply Migrations
 python manage.py makemigrations
+
 python manage.py migrate
 
 
